@@ -1,0 +1,35 @@
+/* - Mobile: 375px
+- Desktop: 1440px
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%) 
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+- Font size (paragraph): 16px
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900
+
+Mobile and Desktop have two different backgrounds. 
+
+ */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Red Hat Display', sans-serif;
+     font-size: 16px;
+ }
+ body {
+    background-color: hsl(225, 100%, 94%);
+    padding: 1.25rem;
+ }
+ .container {
+     background-color: hsl(225, 100%, 98%);
+     padding: 2rem;
+     margin-bottom: 1.5rem;
+     border-radius: 0.8rem;
+ }
