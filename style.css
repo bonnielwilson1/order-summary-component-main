@@ -147,7 +147,7 @@ Mobile and Desktop have two different backgrounds.
 @media (min-width: 400px) {
     body {
     background: url(pattern-background-desktop.svg);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: hsl(225, 100%, 94%);
