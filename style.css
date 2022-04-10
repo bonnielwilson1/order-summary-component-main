@@ -127,3 +127,17 @@ Mobile and Desktop have two different backgrounds.
      font-weight: 900;
      color:hsl(245, 75%, 52%);
  }
+
+ .plan ul a:hover{
+     cursor: pointer;
+     color: mediumpurple;
+ }
+ .buttons ul li:first-child:hover {
+    cursor: pointer;
+    background-color: mediumpurple;
+    color: white;
+ }
+ .buttons ul li:nth-child(2):hover {
+     color: black;
+     cursor: pointer;
+ }
