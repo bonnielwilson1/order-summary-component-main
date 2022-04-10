@@ -28,8 +28,102 @@ Mobile and Desktop have two different backgrounds.
     padding: 1.25rem;
  }
  .container {
-     background-color: hsl(225, 100%, 98%);
-     padding: 2rem;
+     background-color: white;
      margin-bottom: 1.5rem;
      border-radius: 0.8rem;
+ }
+
+ .container .hero-image img {
+     width: 100%;
+     border-radius: 0.8rem 0.8rem 0 0 ;
+    
+ }
+ .content { 
+ padding: rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.content .summary h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 900;
+    padding: 1.3rem 0;
+    color: hsl(223, 47%, 23%);
+}
+.content .summary p {
+    text-align: center;
+    margin: 0 30px 30px;
+    line-height: 1.6;
+    color: hsl(224, 23%, 55%);
+
+}
+ .plan ul {
+     display: flex;
+     list-style-type: none;
+     background-color: hsl(225, 100%, 98%);
+     padding: .4rem 1.8rem;
+     align-items: center;
+     border-radius: 15px;
+    
+ }
+.column li:first-child {
+    font-weight: 700;
+    font-size: .9rem;
+}
+.column li:nth-child(2) {
+    color: hsl(224, 23%, 55%);
+    font-size: .9rem;
+   
+}
+.plan .column li {
+    display: flex;
+    justify-content: flex-start;
+}
+
+ .plan {
+      justify-content: center;
+      align-items: center;
+ }
+ .plan .column{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+ .buttons {
+     display: flex;
+     flex-direction: column;
+     padding-bottom: 2rem;
+     
+     
+ }
+ .buttons ul {
+     list-style-type: none;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 2rem;
+ }
+ .buttons ul li:first-child {
+     background-color: hsl(245, 75%, 52%);
+     color: hsl(225, 100%, 94%);
+     padding: .9rem 4.5rem;
+     border-radius: 10px;
+     box-shadow: -3px 20px 12px hsl(225, 100%, 94%);
+     font-size: .9rem;
+     font-weight: 700;
+     margin-top: 30px;
+ }
+ .buttons ul li:nth-child(2) {
+    color:hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: .9rem;
+ }
+ .plan ul a {
+     font-size: .8rem;
+     font-weight: 900;
+     color:hsl(245, 75%, 52%);
  }
