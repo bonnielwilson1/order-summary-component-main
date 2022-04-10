@@ -141,3 +141,8 @@ Mobile and Desktop have two different backgrounds.
      color: black;
      cursor: pointer;
  }
+ 
+
+@media (min-width: 400px) {
+    background-color: red;
+}
