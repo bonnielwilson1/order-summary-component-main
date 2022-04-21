@@ -61,27 +61,39 @@ Mobile and Desktop have two different backgrounds.
     color: hsl(224, 23%, 55%);
 
 }
- .plan ul {
+ .plan {
      display: flex;
-     list-style-type: none;
+    flex: 1, 1, 0; 
+    justify-content: space-between;
      background-color: hsl(225, 100%, 98%);
-     padding: .4rem 1.8rem;
+     
      align-items: center;
      border-radius: 15px;
+     padding: 1rem;
     
  }
-.column li:first-child {
+ .plan img {
+     padding-right: 1.5rem;
+ }
+
+ .column {
+     padding-right: 3.5rem;
+     line-height: 1.7;
+ }
+.column h2 {
     font-weight: 700;
     font-size: .9rem;
+
 }
-.column li:nth-child(2) {
+.column p {
     color: hsl(224, 23%, 55%);
     font-size: .9rem;
    
 }
-.plan .column li {
-    display: flex;
-    justify-content: flex-start;
+.plan a {
+    font-size: .8rem;
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
 }
 
  .plan {
@@ -123,13 +135,9 @@ Mobile and Desktop have two different backgrounds.
     font-weight: 700;
     font-size: .9rem;
  }
- .plan ul a {
-     font-size: .8rem;
-     font-weight: 900;
-     color:hsl(245, 75%, 52%);
- }
 
- .plan ul a:hover{
+
+ .plan a:hover{
      cursor: pointer;
      color: mediumpurple;
  }
@@ -146,7 +154,7 @@ Mobile and Desktop have two different backgrounds.
 
 @media (min-width: 400px) {
     body {
-    background: url(pattern-background-desktop.svg);
+    background: url("pattern-background-desktop.svg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
